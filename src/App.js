@@ -34,14 +34,31 @@ import CBCStateEx from './stateexample/CBCStateEx'
 
 //export default App
 
-import React from 'react'
-import FBCStateEx from './stateexample/FBCStateEx'
-const App = () => {
-  return (
-    <div>
-      <FBCStateEx/>
+//import React from 'react'
+//import FBCStateEx from './stateexample/FBCStateEx'
+//const App = () => {
+  //return (
+    //<div>
+      //<//FBCStateEx/>
       
-    </div>
- )
+    //</div>
+ //)
+//}
+//export default App
+
+import React, { Component } from 'react';
+import ClassComponent from './components/ClassComponent';
+
+class App extends Component {
+    render() {
+        return (
+            <div className="App">
+                <ClassComponent clgName="XYZ College" city="New York" apply={true}>
+                    Extra Text
+                </ClassComponent>
+            </div>
+        );
+    }
 }
-export default App
+
+export default App;
