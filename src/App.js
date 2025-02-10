@@ -46,19 +46,18 @@ import CBCStateEx from './stateexample/CBCStateEx'
 //}
 //export default App
 
-import React, { Component } from 'react';
-import ClassComponent from './components/ClassComponent';
 
-class App extends Component {
-    render() {
-        return (
-            <div className="App">
-                <ClassComponent clgName="XYZ College" city="New York" apply={true}>
-                    Extra Text
-                </ClassComponent>
-            </div>
-        );
-    }
+import MyForm from './components/MyForm';
+
+
+
+function App() {
+  return (
+    <div className="App">
+     <MyForm></MyForm>
+     </div>
+  );
 }
 
 export default App;
+
