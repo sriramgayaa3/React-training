@@ -48,14 +48,15 @@ import CBCStateEx from './stateexample/CBCStateEx'
 
 
 // import MyForm from './components/MyForm';
-import UseEffectEx from './UseEffectEx';
+//import MyForm from './MyForm';
+//import UseEffectEx from './UseEffectEx';
+import RefExamples from './components/RefExample';
 function App() {
   return (
     <div className="App">
-     <UseEffectEx></UseEffectEx>
+    <RefExamples></RefExamples>
      </div>
   );
 }
 
 export default App;
-
